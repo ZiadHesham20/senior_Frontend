@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 3</title>
+  </head>
+  <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        table {
+            width: 100%;
+            border: #D4A694 outset 5px;
+            border-bottom:  #D4A694 inset 5px;
+        }
+
+        th, td {
+            padding: 8px;
+            border: #D4A694 inset 2px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+           
+            text-align: center;
+        }
+
+        input[type="text"], input[type="email"], input[type="tel"], textarea {
+            width: 20%;
+            
+        }
+
+        select {
+            width: 10%;
+            padding: 6px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+        .languages{
+            display: flex;
+        }
+        h1{
+            text-align: center;
+            background-color: #376504;
+            padding: 2rem;
+            margin-bottom: 0px;
+            border: #EF7D4F outset 5px;
+        }
+        textarea{
+            width: 40%;
+        }
+        form{
+            background-color: #EF7D4F;
+        }
+        .buttonstd{
+            width: 100%;
+        }
+        .buttons{
+            display: flex;
+            justify-content: center;
+            border: #D4A694 outset 5px;
+            border-top: 0px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+   
+    <form>
+        <table>
+            <thead>
+                <h1>Registration Form</h1>
+            </thead>
+            <tbody>
+                <th>First Name:</th>
+                <td><input type="text" id="firstName" name="firstName" required></td>
+            </tr>
+            <tr>
+                <th>Last Name:</th>
+                <td><input type="text" id="lastName" name="lastName" required></td>
+            </tr>
+            <tr>
+                <th>Username:</th>
+                <td><input type="text" id="username" name="username" required></td>
+            </tr>
+            <tr>
+                <th>Password:</th>
+                <td><input type="password" id="password" name="password" required></td>
+            </tr>
+            <tr>
+                <th>Gender:</th>
+                <td>
+                    <select id="gender" name="gender" required>
+                        <option value="">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Course:</th>
+                <td>
+                    
+                    <input type="radio" id="fullStake" name="course" value="fullStake">
+                    <label for="fullStake">Full Stake</label>
+                    <br>
+                    
+                    <input type="radio" id="frontEnd" name="course" value="frontEnd">
+                    <label for="frontEnd">Front End</label>
+                    <br>
+                    
+                    <input type="radio" id="backend" name="course" value="backend">
+                    <label for="backend">Back End</label>
+                </td>
+            </tr>
+            <tr>
+                <th>E-mail:</th>
+                <td><input type="email" id="email" name="email" placeholder="ahmed-sayed@gmail.com" required></td>
+            </tr>
+            <tr>
+                <th>Mobile Number:</th>
+                <td><input type="number" id="mobileNumber" name="mobileNumber" min="0" required></td>
+            </tr>
+            <tr>
+                <th>Language:</th>
+                <td class="languages">
+                    <label for="english">English</label>
+                    <input type="checkbox" id="english" name="Language" value="english">
+                    <br>
+                    <label for="french">French</label>
+                    <input type="checkbox" id="french" name="Language" value="french">
+                    <br>
+                    <label for="german">German</label>
+                    <input type="checkbox" id="german" name="Language" value="german">
+                    <label for="arabic">Arabic</label>
+                    <input type="checkbox" id="arabic" name="Language" value="arabic">
+            </td>
+            </tr>
+            <tr>
+                <th>Date of Birth:</th>
+                <td>
+                    <input type="date" id="dateOfBirth"/>
+                </td>  
+            </tr>  
+            <tr>
+                <th>Description:</th>
+                <td>
+               <textarea name="Description" placeholder="plz descripe your job" cols="20" rows="10"></textarea>
+                </td>  
+            </tr>  
+           
+            </tbody>
+            
+        </table>
+        <div class="buttons">
+            <button>done</button>
+    <button>Erase</button>
+        </div>   
+                
+                        
+                    
+  </body>
+</html>
