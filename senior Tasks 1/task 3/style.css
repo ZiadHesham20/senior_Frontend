@@ -1,0 +1,71 @@
+@font-face {
+    font-family: logo;
+    src: url(Pacifico/Pacifico-Regular.ttf);
+}
+header{
+    width: 100%;
+    margin: auto;
+    background-color: #F5F5F5;
+}
+.contacts{
+    display: inline-block;
+    width: 69%;
+    background-color: white;
+    margin-top: 0px;
+    text-align: center;
+}
+.logo{
+    display: inline-block;
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    font-family: logo;
+    
+}
+nav{
+   
+    width: 100%;
+    margin: auto;
+}
+.icons{
+    display: inline-block;
+}
+.address{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.address:hover{
+   color: #6354B6;
+   cursor: pointer;
+}
+.phone:hover{
+    color: #6354B6;
+    cursor: pointer;
+ }
+.links{
+    margin-top: 30px;
+    padding-top: 30px;
+    background-color: #F5F5F5;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+    font-size: 1.5rem;
+}
+a:hover{
+    
+    color: #6354B6;
+    
+}
+.icon{
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+    background-color: #F5F5F5;
+}
+.icon:hover{
+    background-color: #6354B6;
+    color: white;
+    cursor: pointer;
+}
