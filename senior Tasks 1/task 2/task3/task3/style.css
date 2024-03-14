@@ -1,0 +1,45 @@
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+}
+
+nav ul li a:after {
+  content: "~";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  color: burlywood;
+  margin-right: 5px;
+
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 90px;
+}
+.header_imgs {
+  display: flex;
+  position: absolute;
+  right: 0;
+  width: 35%;
+  overflow: hidden;
+
+  margin-right: 15px;
+}
+.header_imgs img {
+  width: 100%;
+  margin-left: 50px;
+}

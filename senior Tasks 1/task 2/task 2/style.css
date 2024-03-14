@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(128, 128, 128,0.2);
+}
+figure{
+    width: 30%;
+}
+.nikeShoe{
+    width: 100%;
+    transform: rotate(340deg);
+}
+.textPart{
+    width: 30%;
+    color: rgb(0, 156, 0);
+}
